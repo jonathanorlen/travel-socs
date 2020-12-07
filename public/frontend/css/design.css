@@ -1,0 +1,65 @@
+.artikel h1.why {
+    text-align: center;
+    color: #00c3ffde;
+}
+
+.artikel p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.agent {
+    margin-top: 30px;
+}
+
+.agent i.fas.fa-briefcase {
+    text-align: center !important;
+    margin: auto !important;
+    font-weight: 50px;
+    margin-top: 50px !important;
+    font-size: 60px;
+    background: #00c3ffde;
+    color: white;
+    border-radius: 50%;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.info {
+    background-image: url(../asset/img/bg.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    margin-top: 80px;
+    position: relative;
+    z-index: 1;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
+}
+
+.info::after {
+    content: '';
+    display: block;
+    background-image: radial-gradient(rgba(143, 151, 172, 0.568), rgb(85, 91, 109));
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.info h2 {
+    z-index: 1;
+    position: relative;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 40px;
+}
